@@ -10,4 +10,5 @@ print("\nModified dimensions:")
 for dimension in dimensions:
     print(dimension)
     
-# Note: If we wanted to change the dimensions of this rectangle, we could redefine the entire tuple.
+# Note: If we wanted to change the dimensions of this rectangle, we 
+# could redefine the entire tuple.
