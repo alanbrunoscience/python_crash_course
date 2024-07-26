@@ -60,6 +60,7 @@ print(f"\n5) Is {car_1.title()} a {car_2.upper()}?")
 print(f"-> The prediction is {answer}!")
 
 #=======================================================================
+
 print("\n\n*** TRUE PREDICTIONS ***\n")
 
 n1 = 10
@@ -99,7 +100,6 @@ if (name in names):
 else:
     print(f'4) {name.title()} is not on the names list. The prediction is {answer}!')
 
-
 #=======================================================================
 
 name = 'aline'
@@ -109,5 +109,37 @@ answer = (name in names)
 if (name in names):
     print(f'\n5) {name.title()} is in the names list. The prediction is {answer}!')
 else:
-    print(f'5) {name.title()} is not on the names list. The prediction is {answer}!')
+    print(f'\n5) {name.title()} is not on the names list. The prediction is {answer}!')
 
+#=======================================================================
+
+print("\n\n*** AND & OR ***\n")
+
+num_01 = 21
+
+if num_01 >= 10 and num_01 <= 20:
+    print(f'1) {num_01} is between 10 and 20 (including).')
+else:
+    print(f'1) {num_01} is not between 10 and 20 (including).')
+
+#=======================================================================
+
+num_01 = 15
+
+if num_01 <= 10 or num_01 > 20:
+    print(f"\n2) Is '{num_01}' less than or equal to 10 or greater than 20? {True}.")
+else:
+    print(f"\n2) Is '{num_01}' less than or equal to 10 or greater than 20? {False}.")
+    
+#=======================================================================
+
+print("\n\n*** 'IN' OR 'NOT IN' ***\n")
+
+blocked_users = ['andrew', 'carolina', 'david']
+
+user = 'alan'
+
+if user not in blocked_users:
+    print(f"-> {user.title()}, you are allowed to access the application.")
+else:
+    print(f"-> {user.title()}, you are not allowed to access the application.")
