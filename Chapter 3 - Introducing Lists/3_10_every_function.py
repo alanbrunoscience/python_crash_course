@@ -6,11 +6,11 @@ print("\n-----------------------------------------------------------\n")
 
 print("*** ACCESSING ELEMENTS IN A LIST ***\n")
 
-print(f"-> 1º Element: {hobbies[0].title()};");
-print(f"-> 2º Element: {hobbies[1].title()};");
-print(f"-> 3º Element: {hobbies[2].title()};");
-print(f"-> 4º Element: {hobbies[3].title()};");
-print(f"-> 5º Element: {hobbies[4].title()}.");
+print(f"-> 1º Element: {hobbies[0].title()};")
+print(f"-> 2º Element: {hobbies[1].title()};")
+print(f"-> 3º Element: {hobbies[2].title()};")
+print(f"-> 4º Element: {hobbies[3].title()};")
+print(f"-> 5º Element: {hobbies[4].title()}.")
 
 print("\n-----------------------------------------------------------\n")
 
@@ -49,7 +49,7 @@ print("\n-----------------------------------------------------------\n")
 
 print("*** REMOVING AN ITEM USING THE pop() METHOD ***\n")
 
-popped_hobby = hobbies.pop();
+popped_hobby = hobbies.pop()
 
 print(f"-> Removed element: '{popped_hobby}';\n")
 print(f"-> New list: {hobbies}")
@@ -58,7 +58,7 @@ print("\n-----------------------------------------------------------\n")
 
 print("*** POPPING ITEMS FROM ANY POSITION IN THE LIST ***\n")
 
-popped_hobby = hobbies.pop(0);
+popped_hobby = hobbies.pop(0)
 
 print(f"-> Removed element: '{popped_hobby}';\n")
 print(f"-> New list: {hobbies}")
