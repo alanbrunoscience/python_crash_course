@@ -35,7 +35,13 @@ sorted_places_count = dict(sorted(count_places.items()))
 sum_count = sum(sorted_places_count.values())
    
 print("\n\n--- POLL RESULT ---\n")
+keys = list(sorted_places_count.keys())  # Get a list of keys
+last_key = keys[-1]  # Identify the last key
+
 for place, count in sorted_places_count.items():
-    print(f"-> {place}: {((count * 100) / sum_count):.2f}% ({count} people)")
-    
-print(f"\n-> Total number of people who participated in the poll: {sum_count}")
+    if place != last_key:
+        print(f"-> {place}: {((count * 100) / sum_count):.2f}% ({count} people);")
+    else:
+        print(f"-> {place}: {((count * 100) / sum_count):.2f}% ({count} people).")
+
+print(f"\n-> Total number of people who participated in the poll: {sum_count}.")
