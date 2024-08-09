@@ -36,6 +36,3 @@ if __name__ == '__main__':
     fptr.write('\n'.join(result) + '\n')  # Write all dates at once
     
     fptr.close()
-
-
-
