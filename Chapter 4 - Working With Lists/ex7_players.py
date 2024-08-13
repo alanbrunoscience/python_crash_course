@@ -20,4 +20,4 @@ players = ['charles', 'martina', 'michael', 'florence', 'eli']
 # If a third value is included, this tells Python how many items to skip 
 # between items in the specified range.
 
-print(players[-3::2])
+print(players[-3::2]) # ['michael', 'eli']
