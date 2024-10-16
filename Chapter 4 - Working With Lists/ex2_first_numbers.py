@@ -5,7 +5,7 @@ for value in range(1, 6):
 
 print('\n')
 
-for value in range(6): 
+for value in range(6):
     print(value) # print value from 0 to 5 (including)
     
 print('\n*** Using range() to Make a List of Numbers ***\n')
